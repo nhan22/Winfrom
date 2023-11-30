@@ -40,6 +40,7 @@
             this.Colume1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Colume2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Colume3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button_Goback = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,11 +139,22 @@
             this.Colume3.HeaderText = "Mật Khẩu";
             this.Colume3.Name = "Colume3";
             // 
+            // button_Goback
+            // 
+            this.button_Goback.Location = new System.Drawing.Point(683, 328);
+            this.button_Goback.Name = "button_Goback";
+            this.button_Goback.Size = new System.Drawing.Size(105, 48);
+            this.button_Goback.TabIndex = 8;
+            this.button_Goback.Text = "Đăng Xuất";
+            this.button_Goback.UseVisualStyleBackColor = true;
+            this.button_Goback.Click += new System.EventHandler(this.button_Goback_Click);
+            // 
             // ManagerSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_Goback);
             this.Controls.Add(this.button_Referender);
             this.Controls.Add(this.button_Changale);
             this.Controls.Add(this.button_Remove);
@@ -174,5 +186,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Colume1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Colume2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Colume3;
+        private System.Windows.Forms.Button button_Goback;
     }
 }

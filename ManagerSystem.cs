@@ -77,6 +77,14 @@ namespace WinfromTuanJav.Resources
             textBox_name.Text = username;
             textBox_password.Text = userpassword;
         }
+
+        private void button_Goback_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            LoginSystem loginSystem = new LoginSystem();
+            loginSystem.Show();
+        }
+
         private void CallSQL(string Query)
         {
             MyConnection.Open();
