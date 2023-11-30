@@ -1,0 +1,9 @@
+code by hà hồng nhân.
+ĐỌC TRƯỚC KHI SỬ DỤNG NHÉ!
+1. Thay thế những gì đã được comment.
+2. đặt tên biên của các button và các Textbox càng giống càng đỡ bug =))).
+3. câu lệnh sql thì thay đúng với comment nhé .
+	VD: 'MyData' thay bằng tên của cái table mà bạn tạo bên sql trong đó có tối thiểu {id},{username},{password}. 
+    	cái @username or @password thì dữ nguyên dùm thay username or password không có @ đằng trước thôi.
+	VD: username=@username thì thay cái username = tên của biến bạn đặt bên sql.
+4. 3 from để có ảnh minh họa nhé.
